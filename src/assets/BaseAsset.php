@@ -6,25 +6,15 @@ use yii\web\AssetBundle;
 
 class BaseAsset extends AssetBundle
 {
-    public $sourcePath = "@base/vendor/jamshidbekakhlidinov/src";
+    public $sourcePath = "@vendor/jamshidbekakhlidinov/yii2-lottie-player/src/dist";
 
-    /**
-     * @inheritdoc
-     */
     public $js = [
         'js/lottie-player.js'
     ];
-
-    /**
-     * @inheritdoc
-     */
     public $css = [
     ];
 
-    /**
-     * @inheritdoc
-     */
     public $depends = [
-    
+
     ];
 }
