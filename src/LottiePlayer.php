@@ -13,7 +13,7 @@ class LottiePlayer extends \yii\base\Widget
     public function run()
     {
         $this->view->registerJsFile(
-            \Yii::getAlias('@storageUrl/lottie-player/lottie-player.js'),
+            \Yii::getAlias('@vendor/jamshidbekakhlidinov/yii2-lottie-player/js/lottie-player.js'),
             ['position' => View::POS_HEAD]
         );
 
@@ -23,9 +23,14 @@ class LottiePlayer extends \yii\base\Widget
             'autoplay' => true,
         ];
 
+        $this->src = \Yii::getAlias('@vendor/jamshidbekakhlidinov/yii2-lottie-player/json/not-fount-1.json');
+
         $options = array_merge($defaultOptions, $this->options);
         $options['src'] = $this->src;
 
         return Html::tag('lottie-player', '', $options);
     }
 }
+
+?>
+
