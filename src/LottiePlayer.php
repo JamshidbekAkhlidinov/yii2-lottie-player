@@ -1,7 +1,7 @@
 <?php
 
 namespace ustadev\widgets;
-use yii\bootstrap4\Html;
+use yii\helpers\Html;
 use yii\web\View;
 use ustadev\widgets\assets\BaseAsset;
 
