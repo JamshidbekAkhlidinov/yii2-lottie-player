@@ -1,18 +1,19 @@
 {
-    "name": "jamshidbekakhlidinov/yii2-lottie-player",
+    "name": "ustadev/yii2-lottie-player",
     "description": "Yii2 animation view",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "jamshidbekakhlidinov\\": "src/"
+            "ustadev\\widget\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Jamshidbek Akhlidinov",
-            "email": "JamshidbekAkhlidinov@gmail.com"
-        }
-    ],
-    "require": {}
+    "authors": [{
+        "name": "Jamshidbek Akhlidinov",
+        "email": "JamshidbekAkhlidinov@gmail.com"
+    }],
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "^2.0.13"
+    }
 }

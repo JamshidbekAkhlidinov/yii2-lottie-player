@@ -1,9 +1,9 @@
 <?php
 
-namespace jamshidbekakhlidinov;
+namespace ustadev\widgets;
 use yii\bootstrap4\Html;
 use yii\web\View;
-use jamshidbekakhlidinov\assets\BaseAsset;
+use ustadev\widgets\assets\BaseAsset;
 
 class LottiePlayer extends \yii\base\Widget
 {
